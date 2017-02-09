@@ -11,7 +11,7 @@ public class FizzBuzz {
         if(n<1){
             return null;
         }
-        
+
         List<String> output = new ArrayList<>();
         for(int i=1;i<=n;i++){
             if(i%3 == 0 && i%5 == 0)
